@@ -34,4 +34,4 @@ public class Sudoku1 {
             }
         }
     }
-}
+
