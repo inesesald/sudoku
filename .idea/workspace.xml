@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00748d77-6435-469e-ba19-1d1dbfb14e07" name="Default Changelist" comment="pedeja iekava">
-      <change beforePath="$PROJECT_DIR$/.idea/Sudoku.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Sudoku.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="00748d77-6435-469e-ba19-1d1dbfb14e07" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +52,21 @@
       <option name="project" value="LOCAL" />
       <updated>1575106513774</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="pedeja iekava">
+      <created>1575109169724</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575109169724</updated>
+    </task>
+    <task id="LOCAL-00003" summary="System.out.println(&quot;kas notiek&quot;);">
+      <created>1575109634597</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575109634597</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -69,6 +83,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pēdējā iekava" />
     <MESSAGE value="pedeja iekava" />
-    <option name="LAST_COMMIT_MESSAGE" value="pedeja iekava" />
+    <MESSAGE value="System.out.println(&quot;kas notiek&quot;);" />
+    <option name="LAST_COMMIT_MESSAGE" value="System.out.println(&quot;kas notiek&quot;);" />
   </component>
 </project>
