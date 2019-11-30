@@ -31,6 +31,7 @@ public class Sudoku1 {
                 } else {
                     System.out.println();
                     System.out.println("…………………………………………………………………………………………………………………………………………………");
+                    System.out.println("kas notiek");
                 }
 
             }
