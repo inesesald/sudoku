@@ -25,7 +25,7 @@ public class Sudoku1 {
                 }
                 if (i == 2 || i == 5 || i == 8) {
                     System.out.println();
-                    System.out.println("▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬kkkkkkkkkkkkkkkkkkk▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬");
+                    System.out.println("▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬");
                 } else {
                     System.out.println();
                     System.out.println("…………………………………………………………………………………………………………………………………………………");
