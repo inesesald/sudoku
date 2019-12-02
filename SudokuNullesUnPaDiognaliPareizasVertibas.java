@@ -43,7 +43,7 @@ public class SudokuNullesUnPaDiognaliPareizasVertibas {
         }
 
 
-//laukuma vertibas izdruka ar visiem mazajiem kubiem
+//laukuma vertibu papildinasana ar diognales mazajiem kubiem
 
         int laukums[][] = new int[9][9];
         for (int i = 0; i < 3; i++)
@@ -55,14 +55,59 @@ public class SudokuNullesUnPaDiognaliPareizasVertibas {
         for (int i = 6; i > 5 && i < 9; i++)
             for (int j = 6; j > 5 && j < 9; j++)
                 laukums[i][j] = c[i - 6][j - 6];
+//parbaude vai laukuma ir tukshas vertibas "0", lai turpinatu speli.
 
-//laukuma izdruka
-        for (int i = 0; i < 9; i++) {
-            for (int j = 0; j < 9; j++) {
-                System.out.print((laukums[i][j]));
+        int rinda = 0;
+        int kolona = 0;
+
+
+        boolean matrixIsntFixed = true;
+        //  dimensija, kas nav nofikseta tiek piepildita, audzejot vai samazinot vertibu.
+        int indexChange = 1;
+        // piepildam array
+        int number;
+
+        while (matrixIsntFixed) {
+            // numuram jabut mazakam par arry robezam
+            try {
+                // pipilda tikai tad, jA tuks, preteja gadijuma pienem iznakumu
+
+                if (laukums[rinda][kolona] == 0) {
+                    number = (int) (Math.random() * (9 + 1 - 1) + 1);//tagad vinsh piepilda ar visiem skaitliem no 1-9(tas neder)
+
+                            laukums[rinda][kolona] = number;//gala statement, ja visas prasibas ir izpilditas
+
+
+
+                } else {
+                    kolona += 1;
+                }
+            } catch (ArrayIndexOutOfBoundsException e) {
+                if (kolona == 9) {
+                    rinda++;
+                    kolona = 0;
+                } else {
+                    matrixIsntFixed = !matrixIsntFixed;
+                    System.out.println("Spele pabeigta!");
+
+                }
+            }
+        }
+
+
+//Pats pedejais gala rezultats
+        System.out.println("Izveidota matrica:");
+        for (rinda = 0; rinda < 9; rinda++) {
+
+            for (kolona = 0; kolona < 9; kolona++) {
+
+                System.out.print(laukums[rinda][kolona]);
             }
             System.out.println(" ");
         }
+
+
     }
+
 
 }
