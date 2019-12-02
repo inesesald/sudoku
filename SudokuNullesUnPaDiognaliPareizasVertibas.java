@@ -68,11 +68,24 @@ public class SudokuNullesUnPaDiognaliPareizasVertibas {
         int number;
 
         while (matrixIsntFixed) {
+            /*shis while cikls der, vinu var kopet ari user inputam, tur zem if (laukums[rinda][kolona] == 0; 
+            sadalas liek user input nosacijumus
+                if (laukums[rinda][kolona] == 0) {
+                   ////////// number = user input ->>>visi if statementi, kas jaizpilda, ja izpilditi, tad nakama rindina.
+                  ///////////  laukums[rinda][kolona] = number;//gala statement, ja visas prasibas ir izpilditas
+                } else {
+                    kolona += 1;
+                }
+                parejo patur tadu pasu, ka saja dala, kur tiek veidots laukums./////garo vieta var likt jebkurus nosacijumus pa starpai.
+                */
+            
+            
             // numuram jabut mazakam par arry robezam
             try {
                 // pipilda tikai tad, jA tuks, preteja gadijuma pienem iznakumu
 
                 if (laukums[rinda][kolona] == 0) {
+                    
                     number = (int) (Math.random() * (9 + 1 - 1) + 1);//tagad vinsh piepilda ar visiem skaitliem no 1-9(tas neder)
 
                             laukums[rinda][kolona] = number;//gala statement, ja visas prasibas ir izpilditas
